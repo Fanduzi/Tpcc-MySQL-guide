@@ -212,7 +212,7 @@ plot \
 ```
 出图
 cat gnuplot.cnf | gnuplot
-
+![image](https://github.com/Fanduzi/Tpcc-MySQL-guid/blob/master/image/Snip20170709_3.png)
  
 
 ### highcharts出图
@@ -253,7 +253,7 @@ options = {
 
 charts.plot(getData('C:\\Users\\Fan\\tpcc.txt'),name='10 warehouse 10 connect',options=options,show='inline',)
 ```
-
+![image](https://github.com/Fanduzi/Tpcc-MySQL-guid/blob/master/image/Snip20170709_4.png)
  不过要注意的是 这里是 trx是10秒的累计,每十秒一个trx
 
 
